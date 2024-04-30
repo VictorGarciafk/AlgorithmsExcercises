@@ -1,0 +1,14 @@
+E:\Respaldo(04-08-23)\Nueva carpeta\Documentos\CursoC++\AlgorithmsExcercises\AlgorithmsExcercises\obj\Debug\AlgorithmsExcercises.csproj.AssemblyReference.cache
+E:\Respaldo(04-08-23)\Nueva carpeta\Documentos\CursoC++\AlgorithmsExcercises\AlgorithmsExcercises\obj\Debug\AlgorithmsExcercises.csproj.CoreCompileInputs.cache
+E:\Respaldo(04-08-23)\Nueva carpeta\Documentos\CursoC++\AlgorithmsExcercises\AlgorithmsExcercises\bin\Debug\AlgorithmsExcercises.exe.config
+E:\Respaldo(04-08-23)\Nueva carpeta\Documentos\CursoC++\AlgorithmsExcercises\AlgorithmsExcercises\bin\Debug\AlgorithmsExcercises.exe
+E:\Respaldo(04-08-23)\Nueva carpeta\Documentos\CursoC++\AlgorithmsExcercises\AlgorithmsExcercises\bin\Debug\AlgorithmsExcercises.pdb
+E:\Respaldo(04-08-23)\Nueva carpeta\Documentos\CursoC++\AlgorithmsExcercises\AlgorithmsExcercises\obj\Debug\AlgorithmsExcercises.exe
+E:\Respaldo(04-08-23)\Nueva carpeta\Documentos\CursoC++\AlgorithmsExcercises\AlgorithmsExcercises\obj\Debug\AlgorithmsExcercises.pdb
+C:\Users\victor\Documents\AlgorithmsExcercises\AlgorithmsExcercises\bin\Debug\AlgorithmsExcercises.exe.config
+C:\Users\victor\Documents\AlgorithmsExcercises\AlgorithmsExcercises\bin\Debug\AlgorithmsExcercises.exe
+C:\Users\victor\Documents\AlgorithmsExcercises\AlgorithmsExcercises\bin\Debug\AlgorithmsExcercises.pdb
+C:\Users\victor\Documents\AlgorithmsExcercises\AlgorithmsExcercises\obj\Debug\AlgorithmsExcercises.csproj.AssemblyReference.cache
+C:\Users\victor\Documents\AlgorithmsExcercises\AlgorithmsExcercises\obj\Debug\AlgorithmsExcercises.csproj.CoreCompileInputs.cache
+C:\Users\victor\Documents\AlgorithmsExcercises\AlgorithmsExcercises\obj\Debug\AlgorithmsExcercises.exe
+C:\Users\victor\Documents\AlgorithmsExcercises\AlgorithmsExcercises\obj\Debug\AlgorithmsExcercises.pdb
