@@ -1,9 +1,5 @@
 ﻿using System;
-using System.Collections;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace AlgorithmsExcercises.ordenamiento
 {
@@ -21,6 +17,24 @@ namespace AlgorithmsExcercises.ordenamiento
                 }
                 Console.WriteLine();
         }
+
+        public int getCountDigit(int number)
+        {
+            int digit = 1;
+
+            if (number == 0)
+            {
+                digit = 1;
+            }
+            while (number != 0)
+            {
+                number = number / 10;
+                digit++;
+            }
+
+            return digit;
+        }
+
         public void SelectionSort()
         {
             //en este algoritmo se encontrara el valor mas pequeño dentro del arreglo y se intercambiara con el que esta en la primera
@@ -123,25 +137,36 @@ namespace AlgorithmsExcercises.ordenamiento
             Console.ReadLine();
         }
 
-        
-
-        public void heapSort()
+        public void heapSort(List<int> n)
         {
+            int aux;
 
-        }
+            for (int j = 1; j < n.Count; j++)
+            {
+                int nodeIndex = (n.Count - j - 1) / 2;
+                for (int i = n.Count - j; i > 0; i--)
+                {
+                    if (n[i] > n[nodeIndex])
+                    {
+                        aux = n[i];
+                        n[i] = n[nodeIndex];
+                        n[nodeIndex] = aux;
+                    }
 
-        public void countingSort()
-        {
+                    if ((i % 2) == 1)
+                    {
+                        nodeIndex--;
+                    }
+                }
 
-        }
-
-        public void RadixSort()
-        {
-
-        }
-
-        public void bucketSort()
-        {
+                aux = n[0];
+                n[0] = n[n.Count - j];
+                n[n.Count - j] = aux;
+            }
+            
+            foreach (int i in n) {
+                Console.Write(i.ToString() + ", ");
+            }
 
         }
     }

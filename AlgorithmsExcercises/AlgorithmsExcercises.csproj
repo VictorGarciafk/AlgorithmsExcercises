@@ -46,11 +46,16 @@
     <Compile Include="ordenamiento\sorts.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Recursividad\cocktailSort.cs" />
     <Compile Include="Recursividad\quickSorts.cs" />
     <Compile Include="Recursividad\MergeSorts.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="acomodo\" />
+    <Folder Include="seleccion\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
