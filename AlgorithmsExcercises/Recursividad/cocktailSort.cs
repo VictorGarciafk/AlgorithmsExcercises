@@ -10,6 +10,7 @@ namespace AlgorithmsExcercises.Recursividad
     {
         public List<int> cocktailSortExcercise(List<int> n, int inicio, int final)
         {
+            //imprimimos toda la lista desordenada para poder verla en la terminal
             foreach (var item in n)
             {
                 Console.Write(item.ToString() + ", ");

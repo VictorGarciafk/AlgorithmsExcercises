@@ -18,10 +18,12 @@ namespace AlgorithmsExcercises
             
             
             int[] numbers = { 9, 5, 25, 8, 2, 12, 32, 1, 10, 4, 3, 9};
+            string[] names = {"Juan", "Carlos", "Ramon", "Maria", "Luis" };
             List<int> listNumbers = new List<int>();
             List<int> listNumbersSorted = new List<int>();
+            List<string> nameList = new List<string>();
             listNumbers.AddRange(numbers);
-
+            nameList.AddRange(names);
 
            
             //quickSorts q = new quickSorts(listNumbers);
@@ -51,6 +53,8 @@ namespace AlgorithmsExcercises
             //Console.WriteLine("\n \n");
 
             //s.heapSort(listNumbers);
+
+            s.AlphabeticalSort(nameList);
 
             Console.ReadKey();
         }

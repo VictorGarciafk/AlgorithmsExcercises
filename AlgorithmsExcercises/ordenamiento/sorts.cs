@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Text;
 
 namespace AlgorithmsExcercises.ordenamiento
 {
@@ -168,6 +169,31 @@ namespace AlgorithmsExcercises.ordenamiento
                 Console.Write(i.ToString() + ", ");
             }
 
+        }
+
+        public void radixSort()
+        {
+
+        }
+
+        public void SortingObject()
+        {
+
+        }
+
+
+
+        public void AlphabeticalSort(List<string> namesList)
+        {
+            foreach (var ascii in namesList)
+            {
+                byte[] aux = Encoding.ASCII.GetBytes(ascii);
+                for (int i = 0; i < aux.Length; i++)
+                {
+                    Console.Write(aux[i] + ", ");
+                }
+                Console.WriteLine("\n \n");
+            }
         }
     }
 }
